@@ -1,6 +1,6 @@
 {
 	"name": "grandma3-plugin-starter",
-	"version": "0.4.1",
+	"version": "0.4.2",
 	"description": "A starting point for your grandMA3 plugin project written in TypeScript.",
 	"author": "Lukas Runge Veranstaltungstechnik",
 	"license": "MIT",

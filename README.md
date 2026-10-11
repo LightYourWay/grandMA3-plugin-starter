@@ -151,4 +151,4 @@ npm run package
 
 This writes `release/<plugin-name>_v<version>.zip` containing the Lua bundle, XML, `README.md`, and `LICENSE`, all rooted under a `<plugin-name>/` folder so the archive extracts directly into MA3's plugins directory.
 
-A GitHub Actions workflow (`.github/workflows/publish.yml`) runs on every `v*` tag push: it builds, packages, and creates a draft GitHub Release with the zip attached.
+A GitHub Actions workflow (`.github/workflows/publish.yml`) runs on every `v*` tag push: it builds, packages, and creates a draft GitHub Release with the zip attached. Tags below `v1.0.0` (`v0.x`) and suffixed tags such as `v1.2.0-beta.1` are marked as pre-releases.
